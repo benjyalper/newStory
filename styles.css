@@ -1,0 +1,67 @@
+/*colors:
+light blue: #78C1F3
+light green: #9BE8D8
+hazy yellow: #E2F6CA
+creemy yellow: #F8FDCF
+*/
+
+body {
+    background-image: url("https://picsum.photos/id/3/5000/3333");
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    color: #9BE8D8;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+}
+
+p {
+    font-family: 'EB Garamond', serif;
+    text-align: center;
+    color: #F8FDCF;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    max-width: 30%;
+    margin-left: 35%;
+    align-items: center;
+    background-color: rgb(120, 193, 243, 0.7);
+    border-radius: 5px;
+    padding: 20px;
+}
+
+label {
+    color: #9BE8D8;
+    align-self: flex-start;
+}
+
+input,
+select,
+email {
+    border-radius: 5px;
+    height: 30px;
+    font-family: 'EB Garamond', serif;
+    opacity: 0.9;
+    background-color: #F8FDCF;
+
+}
+
+button {
+    width: 60px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #9BE8D8;
+    font-family: 'EB Garamond', serif;
+}
+
+::placeholder {
+    font-family: 'EB Garamond', serif;
+    font-size: larger;
+
+}
